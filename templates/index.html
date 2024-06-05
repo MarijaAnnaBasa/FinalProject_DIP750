@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - DIP750</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    
+    <div id="cookiesModal" class="modal">
+        <div class="modal-content">
+          <p>This website uses cookies to ensure you get the best experience on our website.</p>
+          <button id="acceptCookiesBtn">Accept</button>
+        </div>
+      </div>
+      <hr>
+    
+</head>
+<body> 
+    <header>
+        <h1>Welcome to the world of chess</h1>
+        
+    </header>
+
+    
+    <nav>
+        <ul>
+            <li><a href="/" class="home-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                    <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+                </svg>
+            </a></li>
+            <li><a href="/history">History</a></li> 
+            <li><a href="/extra">Extra</a></li>
+            
+        </ul>
+    </nav>
+    
+    <main>
+        <p id="intro">Dear chess lover, welcome! This website is dedicated to the admiration of the timeless beauty and strategic depth found within the intricate world of chess.</p>
+
+        <div class="photo1">
+            <img src="static/img/photo1.png" height="160">
+        </div>
+
+        <div class="Qoute">
+            <h3><em>‘Chess is everything: art, science and sport,’</em> Anatoly Karpov</h3>
+        </div>
+
+        
+    
+        <p>Introduce yourself</p>
+
+        <input id="nameInput" type="text" placeholder="Enter your name">
+        <button onclick="displayGreeting()">Click here</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Marija Anna Baša. All Rights Reserved.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
