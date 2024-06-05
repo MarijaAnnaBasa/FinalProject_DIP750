@@ -1,0 +1,182 @@
+h1 {
+    margin-top: 30px;
+    color: #3d405b;
+    text-align: center;}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    color: #333;
+    
+}
+
+header {
+    background-color: #f7e2db;
+    padding: 20px;
+}
+
+footer {
+    background-color: #f7e2db;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    padding-bottom: 30px;
+
+    
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: #3d405b; /* Sets the text color for links to the specified color */
+    font-size: 18px; /* Increases the font size of the links */
+    font-weight: bold; /* Makes the text bold */
+}
+
+nav ul li a:hover {
+    color: #000; /* Changes text color when hovering over links */
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+    background-color: #f7e2db; /* Initial green color */
+    color: rgb(77, 52, 28);
+    font-size: 13px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+button:hover {
+    background-color: #e3b4a7; /* Darker green color */
+    transform: scale(1.1); /* Optional: slightly increase the size on hover */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    text-align: center;
+}
+.Qoute {
+    text-align: center;
+}
+
+h2 {    
+    text-align: center;
+}
+
+.photo1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;}
+
+
+p {
+    margin-bottom: 30px;
+    
+}
+h5 {
+    background-color: #f7e2db;
+    padding: 5px;
+    margin-top: 30px;
+    color: #3d405b;
+    text-align: center;
+    font-size: 38px;
+}
+
+article {
+
+    color: #e07a5f;
+}
+.chess_set {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.link {color: #3d405b}
+
+.antique_chess_photo {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+#hbutton {
+    background-color: #f7e2db;
+    text-decoration: none; /* Removes underline from links */
+    color: #3d405b; /* Sets the text color for links to the specified color */
+    font-size: 18px; /* Increases the font size of the links */
+    font-weight: bold; /* Makes the text bold */
+}
+
+#hbutton:hover {
+    background-color: #e3b4a7; /* Darker pink color on hover */
+}
+
+.Qoute {
+    text-align: center;
+    color: #5C7373;
+    padding-bottom: 30px;
+}
+
+#intro {    
+    text-align: center;
+    font-size: 19px;
+
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  #acceptCookiesBtn {
+    background-color:#4585a0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  #acceptCookiesBtn:hover {
+    background-color: #366980;
+  }
